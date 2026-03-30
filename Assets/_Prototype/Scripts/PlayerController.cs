@@ -58,7 +58,7 @@ namespace ContractorCo
             float h   = Input.GetAxisRaw("Horizontal");
             float v   = Input.GetAxisRaw("Vertical");
             var   dir = new Vector2(h, v).normalized;
-            _rb.velocity = dir * _speed;
+            _rb.linearVelocity = dir * _speed;
         }
 
         public void TryInteract()
