@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+
+    <ui:VisualElement name="checklist-row" class="checklist-row">
+        <ui:Label name="check-icon"       text="o" class="check-icon" />
+        <ui:Label name="requirement-text" text="0x ResourceType" class="requirement-text" />
+    </ui:VisualElement>
+
+</ui:UXML>

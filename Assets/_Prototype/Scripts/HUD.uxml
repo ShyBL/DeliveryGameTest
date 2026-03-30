@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+
+    <ui:VisualElement name="hud-root" class="hud-root">
+
+        <ui:VisualElement name="checklist-panel" class="hud-panel hud-panel-left">
+            <ui:Label text="CONTRACT" class="hud-panel-title" />
+            <ui:Label name="contract-name-label" text="..." class="hud-contract-name" />
+            <ui:VisualElement class="card-divider" />
+            <ui:VisualElement name="checklist-rows" class="checklist-rows" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="inventory-panel" class="hud-panel hud-panel-right">
+            <ui:Label text="INVENTORY" class="hud-panel-title" />
+            <ui:VisualElement class="card-divider" />
+
+            <ui:VisualElement class="inventory-row">
+                <ui:Label text="Scraps"             class="inventory-label" />
+                <ui:Label name="scraps-count"       text="0" class="inventory-count" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="inventory-row">
+                <ui:Label text="Raw Materials"      class="inventory-label" />
+                <ui:Label name="raw-count"          text="0" class="inventory-count" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="inventory-row">
+                <ui:Label text="Hi-End Components"  class="inventory-label" />
+                <ui:Label name="hiend-count"        text="0" class="inventory-count" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="card-divider" />
+
+            <ui:VisualElement class="inventory-row">
+                <ui:Label text="Total"              class="inventory-label" />
+                <ui:Label name="total-count"        text="0 / 20" class="inventory-count inventory-count-total" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+</ui:UXML>

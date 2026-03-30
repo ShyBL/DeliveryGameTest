@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+
+    <ui:VisualElement name="board-root" class="board-root">
+
+        <ui:VisualElement name="contracts-column" class="board-column">
+            <ui:Label text="CONTRACTS - PICK 1" class="column-header" />
+            <ui:VisualElement name="contracts-list" class="card-list" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="board-divider" class="board-divider" />
+
+        <ui:VisualElement name="locations-column" class="board-column">
+            <ui:Label text="LOCATIONS - PICK 1" class="column-header" />
+            <ui:VisualElement name="locations-list" class="card-list" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="confirm-bar" class="confirm-bar">
+            <ui:Label  name="confirm-summary" text="Select a contract and a location to begin." class="confirm-summary" />
+            <ui:Button name="confirm-button"  text="DEPLOY" class="confirm-button" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+</ui:UXML>

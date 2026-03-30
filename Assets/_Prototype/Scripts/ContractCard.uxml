@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+
+    <ui:VisualElement name="contract-card" class="card">
+
+        <ui:VisualElement name="portrait-slot" class="portrait-slot" />
+
+        <ui:VisualElement name="card-body" class="card-body">
+
+            <ui:VisualElement name="card-header" class="card-header">
+                <ui:Label name="faction-label" text="FACTION" class="faction-label" />
+                <ui:Label name="payout-label"  text="c 000"   class="payout-label" />
+            </ui:VisualElement>
+
+            <ui:Label name="contract-name"     text="Contract Name"   class="card-title" />
+            <ui:Label name="contractor-name"   text="Contractor Name" class="contractor-name" />
+
+            <ui:VisualElement class="card-divider" />
+
+            <ui:Label text="REQUIRES" class="section-label" />
+            <ui:VisualElement name="requirements-list" class="requirements-list" />
+
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+
+</ui:UXML>
